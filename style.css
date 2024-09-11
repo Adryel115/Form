@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(17, 17, 17);
+    font: bold;
+    font-family: cursive;
+}
+
+
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?q=80&w=2108&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+label{
+  font: bold;
+}
+
+
+input[type="text"], select{
+  width: 100%;
+  border: 1px solid #d6f5ff;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+h1{
+  margin-bottom: 30px;
+}
+
+button{
+  background-color: rgb(233, 196, 245);
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  align-items: center;
+}
+
+button:hover{
+  background-color: #cfa5ff;
+  transform: scale(1.05);
+}
+
+.container{
+  width: clamp(550px, 80%, 1000px);
+  display: flex;
+  flex-direction: column;
+  background: rgb(9,9,121);
+  background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(164, 151, 179, 0.79) 0%);
+  border-radius: 20px;
+  padding: 15px;
+}
+      
